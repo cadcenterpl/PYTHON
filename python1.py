@@ -25,6 +25,7 @@ binarnie = "101"
 imie.lower()
 # imie[0] = 'a' blad
 print(imie)
+print(imie)
 
 # <class 'str'>
 # <class 'int'>
