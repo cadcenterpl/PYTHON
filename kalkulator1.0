@@ -1,0 +1,32 @@
+"""
+Przedmiot Wizualizacja Danych
+Język Pytong 3.8
+Autor Kamil Martenczuk
+"""
+while True:
+    print('--------------------')
+    print('')
+    print('Działania:')
+    print("")
+    print('--------------------')
+    a = int(input('Podaj liczbe A: '))
+    b = int(input('Podaj liczbe B: '))
+    print("--------------------")
+    print('Suma to: ' + str(a+b))
+    print('Różnica to: ' + str(a-b))
+    print('Iloczyn to: ' + str(a*b))
+    if b==0:
+        c= 'nie istnieje'
+        m= 'nie istnieje'
+    else:
+        c=a/b
+        m=a%b
+    print('Iloraz to: ' + str(c))
+    print('Reszta Modulo to: ' + str(m))
+    print('Potęgowanie to: ' + str(a**b))
+    print('--------------------')
+    print('Dziękuję')
+    d= input('Powtórzyć? (TAK/NIE): ') 
+    if (d != 'tak' and d !='Tak' and d !='TAK' and d != 't' and d!= 'T') :
+        break
+    
